@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Graph>
+	<Node id="0">
+		<Name>A</Name>
+	</Node>
+	<Node id="1">
+		<Name>B</Name>
+		<!--<Depends>5</Depends>-->
+	</Node>	
+	<Node id="2">
+		<Name>C</Name>
+		<Depends>3</Depends>
+	</Node>
+	<Node id="3">
+		<Name>D</Name>
+		<Depends>1</Depends>
+	</Node>
+	<Node id="4">
+		<Name>E</Name>
+		<Depends>0</Depends>
+		<Depends>1</Depends>
+	</Node>	
+	<Node id="5">
+		<Name>F</Name>
+		<Depends>0</Depends>
+		<Depends>2</Depends>
+	</Node>
+</Graph>
